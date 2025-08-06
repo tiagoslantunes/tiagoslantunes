@@ -1,7 +1,7 @@
 # Hi there, I'm **Tiago Stubner Lucas Antunes** 👋
 
 <p align="center">
-  <em>Data Science & Risk Analytics Aspirant · MSc Candidate @ NOVA IMS (Lisbon)</em>
+  <em>Data Scientist & Risk Analytics Aspirant · MSc Candidate @ NOVA IMS (Lisbon)</em>
 </p>
 
 ---
@@ -21,5 +21,5 @@
 ![Pandas](https://img.shields.io/badge/-pandas-150458?style=for-the-badge\&logo=pandas\&logoColor=white)
 ![NumPy](https://img.shields.io/badge/-NumPy-013243?style=for-the-badge\&logo=numpy\&logoColor=white)
 ![R](https://img.shields.io/badge/-R-276DC3?style=for-the-badge\&logo=r\&logoColor=white)
-![Power BI](https://img.shields.io/badge/-Power%20BI-F2C811?style=for-the-badge\&logo=powerbi\&logoColor=black)
+![Power BI badge](https://img.shields.io/badge/Power%20BI-F2C811.svg?style=for-the-badge&logo=data:image/svg+xml;base64,BASE64_ENCODED_SVG)
 > *Always exploring new libraries and best practices to uplevel my analytics workflow.*
