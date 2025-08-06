@@ -21,5 +21,7 @@
 ![Pandas](https://img.shields.io/badge/-pandas-333333?style=flat\&logo=pandas)
 ![Jupyter](https://img.shields.io/badge/-Jupyter-333333?style=flat\&logo=jupyter)
 ![MATLAB](https://img.shields.io/badge/-MATLAB-333333?style=flat\&logo=mathworks)
+![NumPy](https://img.shields.io/badge/-NumPy-013243?style=for-the-badge\&logo=numpy\&logoColor=white)
+![scikit‑learn](https://img.shields.io/badge/-scikit%20learn-F7931E?style=for-the-badge\&logo=scikitlearn\&logoColor=white)
 
 > *Always exploring new libraries and best practices to uplevel my analytics workflow.*
