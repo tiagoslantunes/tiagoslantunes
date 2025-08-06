@@ -19,11 +19,9 @@
 
 ![Python](https://img.shields.io/badge/-Python-3776AB?style=for-the-badge\&logo=python\&logoColor=white)
 ![R](https://img.shields.io/badge/-R-276DC3?style=for-the-badge\&logo=r\&logoColor=white)
-
 ![Power BI](https://img.shields.io/badge/-Power%20BI-F2C811?style=for-the-badge\&logo=powerbi\&logoColor=black)
 ![Pandas](https://img.shields.io/badge/-pandas-150458?style=for-the-badge\&logo=pandas\&logoColor=white)
 ![Jupyter](https://img.shields.io/badge/-Jupyter-F37626?style=for-the-badge\&logo=jupyter\&logoColor=white)
 ![NumPy](https://img.shields.io/badge/-NumPy-013243?style=for-the-badge\&logo=numpy\&logoColor=white)
-![scikit‑learn](https://img.shields.io/badge/-scikit%20learn-F7931E?style=for-the-badge\&logo=scikitlearn\&logoColor=white)
 </div>
 > *Always exploring new libraries and best practices to uplevel my analytics workflow.*
