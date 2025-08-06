@@ -8,7 +8,7 @@
 
 ## 📝 About Me
 
-* 🎓 **MSc student** in *Data Science & Advanced Analytics, with specialization in Data Science* at [**NOVA IMS**](https://www.novaims.unl.pt/pt/ensino/cursos/pos-graduacoes-e-mestrados/mestrado-em-data-science-and-advanced-analytics-com-especializacao-em-data-science/) (expected september 2025)
+* 🎓 **MSc student** in *Data Science & Advanced Analytics, with specialization in Data Science* at [**NOVA IMS**](https://www.novaims.unl.pt/pt/ensino/cursos/pos-graduacoes-e-mestrados/mestrado-em-data-science-and-advanced-analytics-com-especializacao-em-data-science/) 
 * 🧮 **BSc in Applied Mathematics & Computation** at [**Instituto Superior Técnico**](https://tecnico.ulisboa.pt/pt/)
 * 📊 **Project Manager** at [**Técnico Investment Club**](https://investmentclub.tecnico.ulisboa.pt/), building data-driven risk frameworks
 
