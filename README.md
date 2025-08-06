@@ -8,7 +8,7 @@
 
 ## 📝 About Me
 
-* 🎓 **MSc student** in *Data Science & Advanced Analytics* at [**NOVA IMS**](https://www.novaims.unl.pt/pt/ensino/cursos/pos-graduacoes-e-mestrados/mestrado-em-data-science-and-advanced-analytics-com-especializacao-em-data-science/) (expected 2025)
+* 🎓 **MSc student** in *Data Science & Advanced Analytics* at [**NOVA IMS**](https://www.novaims.unl.pt/pt/ensino/cursos/pos-graduacoes-e-mestrados/mestrado-em-data-science-and-advanced-analytics-com-especializacao-em-data-science/) (expected september 2025)
 * 🧮 **BSc in Applied Mathematics & Computation** at [**Instituto Superior Técnico**](https://tecnico.ulisboa.pt/pt/)
 * 📊 **Project Manager** at [**Técnico Investment Club**](https://investmentclub.tecnico.ulisboa.pt/), building data-driven risk frameworks
 * 🏦 **Risk Management Intern** at [**BPI**](https://https://www.bancobpi.pt/bpigestaodeativos/) Asset Tech Stack & Tools
