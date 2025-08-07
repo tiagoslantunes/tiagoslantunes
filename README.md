@@ -12,16 +12,20 @@
 * 🧮 **BSc in Applied Mathematics & Computation** at [**Instituto Superior Técnico**](https://tecnico.ulisboa.pt/pt/)
 * 📊 **Project Manager** at [**Técnico Investment Club**](https://investmentclub.tecnico.ulisboa.pt/), building data-driven risk frameworks
 
-## 🛠️ Tech Stack
+---
 
-<div align="center">
+## 🛠️ Tech‑Stack & Favorite Tools
 
-![Python](https://img.shields.io/badge/-Python-3776AB?style=for-the-badge\&logo=python\&logoColor=white)
-![Jupyter](https://img.shields.io/badge/-Jupyter-F37626?style=for-the-badge\&logo=jupyter\&logoColor=white)
-![Pandas](https://img.shields.io/badge/-pandas-150458?style=for-the-badge\&logo=pandas\&logoColor=white)
-![NumPy](https://img.shields.io/badge/-NumPy-013243?style=for-the-badge\&logo=numpy\&logoColor=white)
-![R](https://img.shields.io/badge/-R-276DC3?style=for-the-badge\&logo=r\&logoColor=white)
-![Power BI badge](https://img.shields.io/badge/Power%20BI-F2C811.svg?style=for-the-badge&logo=data:image/svg+xml;base64,BASE64_ENCODED_SVG)
-</div>
+[<img align="left" alt="Python" width="26px" src="https://raw.githubusercontent.com/github/explore/b4afce4b084ef4c8563626815737f17882a795b9/topics/python/python.png" />](https://www.python.org/)
+[<img align="left" alt="Jupyter" width="26px" src="https://raw.githubusercontent.com/github/explore/46f8712f08b19366bf45e6d572b2548f06abbca2/topics/jupyter-notebook/jupyter-notebook.png" />](https://jupyter.org/)
+[<img align="left" alt="Pandas" width="26px" src="https://raw.githubusercontent.com/github/explore/05d0f0dfceafd861bdf2b53559399dae7b2e2d8b/topics/pandas/pandas.png" />](https://pandas.pydata.org/)
+[<img align="left" alt="NumPy" width="26px" src="https://raw.githubusercontent.com/github/explore/37be6237346b0058a27f567119af084e5c995a70/topics/numpy/numpy.png" />](https://numpy.org/)
+[<img align="left" alt="R" width="26px" src="https://raw.githubusercontent.com/github/explore/b4afce4b084ef4c8563626815737f17882a795b9/topics/r/r.png" />](https://www.r-project.org/)
+[<img align="left" alt="Power BI" width="26px" src="https://raw.githubusercontent.com/microsoft/PowerBI-Icons/main/SVG/PowerBI.svg" />](https://powerbi.microsoft.com/)
+[<img align="left" alt="SQL" width="26px" src="https://raw.githubusercontent.com/github/explore/38cf3c8a020e4ec4df3f4154e9d5e82a30052ecf/topics/sql/sql.png" />](https://en.wikipedia.org/wiki/SQL)
+[<img align="left" alt="Git" width="26px" src="https://raw.githubusercontent.com/github/explore/b4afce4b084ef4c8563626815737f17882a795b9/topics/git/git.png" />](https://git-scm.com/)
+[<img align="left" alt="Linux" width="26px" src="https://raw.githubusercontent.com/github/explore/b4afce4b084ef4c8563626815737f17882a795b9/topics/linux/linux.png" />](https://www.kernel.org/)
+
+<br/>
 
 > *Always exploring new libraries and best practices to uplevel my analytics workflow.*
