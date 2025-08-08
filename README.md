@@ -1,4 +1,4 @@
-# Hi there, I'm **Tiago Stubner Lucas Antunes** 👋
+# Hi, I'm **Tiago Stubner Lucas Antunes** 👋
 
 <p align="center">
   <em>Data Science & Risk Analytics Enthusiast · MSc Candidate @ NOVA IMS (Lisbon)</em>
