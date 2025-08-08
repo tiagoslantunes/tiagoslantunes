@@ -18,15 +18,14 @@
 ## 🛠️ Tech Stack
 
 <div align="center">
-
-![Python](https://img.shields.io/badge/-Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
-![Jupyter](https://img.shields.io/badge/-Jupyter-F37626?style=for-the-badge&logo=jupyter&logoColor=white)
-![Pandas](https://img.shields.io/badge/-pandas-150458?style=for-the-badge&logo=pandas&logoColor=white)
-![NumPy](https://img.shields.io/badge/-NumPy-013243?style=for-the-badge&logo=numpy&logoColor=white)
-![R](https://img.shields.io/badge/-R-276DC3?style=for-the-badge&logo=r&logoColor=white)
-![Power BI](https://img.shields.io/badge/-Power%20BI-F2C811?style=for-the-badge&logo=powerbi&logoColor=black)
-
+  <img alt="Python"  src="https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original.svg" height="32"> &nbsp;&nbsp;&nbsp;
+  <img alt="Jupyter" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/jupyter/jupyter-original.svg" height="32"> &nbsp;&nbsp;&nbsp;
+  <img alt="pandas"  src="https://raw.githubusercontent.com/devicons/devicon/master/icons/pandas/pandas-original.svg" height="32"> &nbsp;&nbsp;&nbsp;
+  <img alt="NumPy"   src="https://raw.githubusercontent.com/devicons/devicon/master/icons/numpy/numpy-original.svg"  height="32"> &nbsp;&nbsp;&nbsp;
+  <img alt="R"       src="https://raw.githubusercontent.com/devicons/devicon/master/icons/r/r-original.svg"           height="32"> &nbsp;&nbsp;&nbsp;
+  <img alt="Power BI" src="https://raw.githubusercontent.com/microsoft/PowerBI-Icons/main/SVG/Power-BI.svg"          height="32">
 </div>
+
 
 > *Always exploring new tools, libraries, and workflows to make analytics faster, smarter, and more scalable.*
 
