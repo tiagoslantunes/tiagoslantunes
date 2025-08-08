@@ -8,10 +8,18 @@
 
 ## 📝 About Me
 
-- 🎓 **MSc student** in *Data Science & Advanced Analytics* (specializing in Data Science) at [**NOVA IMS**](https://www.novaims.unl.pt/pt/ensino/cursos/pos-graduacoes-e-mestrados/mestrado-em-data-science-and-advanced-analytics-com-especializacao-em-data-science/)  
-- 🧮 **BSc in Applied Mathematics & Computation** at [**Instituto Superior Técnico**](https://tecnico.ulisboa.pt/pt/)  
-- 📊 **Project Manager** at [**Técnico Investment Club**](https://investmentclub.tecnico.ulisboa.pt/), leading the development of **data-driven risk frameworks** and **quantitative analysis tools**  
-- 💡 Passionate about transforming complex data into **clear, actionable insights** for decision-making in **finance** and **technology**  
+- <img alt="NOVA IMS" src="NOVA_IMS_Logo.png" height="18"> &nbsp;
+  **MSc student** in *Data Science & Advanced Analytics* (specializing in Data Science) at
+  [**NOVA IMS**](https://www.novaims.unl.pt/pt/ensino/cursos/pos-graduacoes-e-mestrados/mestrado-em-data-science-and-advanced-analytics-com-especializacao-em-data-science/)
+- <img alt="Instituto Superior Técnico" src="IST_Logo.png" height="18"> &nbsp;
+  **BSc in Applied Mathematics & Computation** at
+  [**Instituto Superior Técnico**](https://tecnico.ulisboa.pt/pt/)
+- <img alt="Técnico Investment Club" src="tecnico_investment_club_logo.jpg" height="18"> &nbsp;
+  **Project Manager** at
+  [**Técnico Investment Club**](https://investmentclub.tecnico.ulisboa.pt/),
+  leading the development of **data-driven risk frameworks** and **quantitative analysis tools**
+- 💡 Passionate about transforming complex data into **clear, actionable insights** for decision-making in **finance** and **technology**
+
 
 ---
 
