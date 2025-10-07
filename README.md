@@ -38,8 +38,4 @@
 </div>
 
 
-
-
-> *Always exploring new tools, libraries, and workflows to make analytics faster, smarter, and more scalable.*
-
 ---
