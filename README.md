@@ -30,12 +30,15 @@
   <img alt="Jupyter"   src="https://raw.githubusercontent.com/devicons/devicon/master/icons/jupyter/jupyter-original.svg" height="32"> &nbsp;&nbsp;&nbsp;
   <img alt="pandas"    src="https://raw.githubusercontent.com/devicons/devicon/master/icons/pandas/pandas-original.svg"   height="32"> &nbsp;&nbsp;&nbsp;
   <img alt="NumPy"     src="https://raw.githubusercontent.com/devicons/devicon/master/icons/numpy/numpy-original.svg"     height="32"> &nbsp;&nbsp;&nbsp;
+  <img alt="MySQL"     src="https://raw.githubusercontent.com/devicons/devicon/master/icons/mysql/mysql-original.svg"     height="32"> &nbsp;&nbsp;&nbsp;
   <img alt="Matplotlib" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/matplotlib/matplotlib-original.svg" height="32"> &nbsp;&nbsp;&nbsp;
   <img alt="Seaborn"    src="https://seaborn.pydata.org/_static/logo-mark-lightbg.svg"                                    height="32"> &nbsp;&nbsp;&nbsp;
   <img alt="Scikit-learn" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/scikitlearn/scikitlearn-original.svg" height="32"> &nbsp;&nbsp;&nbsp;
   <img alt="R"         src="https://raw.githubusercontent.com/devicons/devicon/master/icons/r/r-original.svg"             height="32"> &nbsp;&nbsp;&nbsp;
   <img alt="Power BI"  src="https://raw.githubusercontent.com/microsoft/PowerBI-Icons/main/SVG/Power-BI.svg"              height="32">
+
 </div>
+
 
 
 ---
