@@ -10,6 +10,7 @@ README = (ROOT / "README.md").read_text(encoding="utf-8")
 class ProfileReadmeTests(unittest.TestCase):
     def test_all_portfolio_repositories_are_linked(self):
         expected = {
+            "home-credit-mlops",
             "text-mining-financial-sentiment",
             "cifo-ga-image-reconstruction",
             "Car-price-prediction-ml",

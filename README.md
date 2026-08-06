@@ -17,6 +17,7 @@ I enjoy turning complex, imperfect data into systems that are measurable, audita
 
 | Project | What it demonstrates | Stack |
 |---|---|---|
+| [Home Credit MLOps](https://github.com/tiagoslantunes/home-credit-mlops) | Collaborative credit-risk system; Tiago owned data splitting, model selection/training, MLflow, Optuna, and SHAP | Python · Kedro · MLflow |
 | [Financial Tweet Sentiment](https://github.com/tiagoslantunes/text-mining-financial-sentiment) | FinBERT, transformer ensembling, knowledge distillation, and 10-fold OOF evaluation | Python · PyTorch · NLP |
 | [GA Image Reconstruction](https://github.com/tiagoslantunes/cifo-ga-image-reconstruction) | Evolutionary image reconstruction with 100 triangles, systematic tuning, and CIEDE2000 | Python · Genetic Algorithms |
 | [Used-Car Price Prediction](https://github.com/tiagoslantunes/Car-price-prediction-ml) | Leakage-safe preprocessing, regression benchmarking, and OOF blending | Python · scikit-learn |
