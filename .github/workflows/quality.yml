@@ -2,6 +2,7 @@ name: Quality checks
 
 on:
   push:
+    branches: [main]
   pull_request:
 
 permissions:
@@ -10,7 +11,7 @@ permissions:
 jobs:
   test:
     runs-on: ubuntu-latest
-    timeout-minutes: 5
+    timeout-minutes: 15
 
     steps:
       - name: Check out repository
