@@ -36,7 +36,7 @@ License**, so you can navigate any of them the same way.
 ## Private work
 
 Most of my engineering time over the past two years has gone into two systems I build and
-maintain for [Técnico Investment Club](https://tecnico.ulisboa.pt/). Both repositories are
+maintain for [Técnico Investment Club](https://investmentclub.tecnico.ulisboa.pt/). Both repositories are
 private, so the summaries below stand in for code I cannot link.
 
 **Risk-AM — portfolio analytics and risk platform.** The analytics and governance system behind
@@ -57,7 +57,7 @@ mobile layout, both gated in CI on every push.
 
 - <img alt="NOVA IMS" src="NOVA_IMS_Logo.png" height="18"> MSc in Data Science and Advanced Analytics at [NOVA IMS](https://www.novaims.unl.pt/).
 - <img alt="Instituto Superior Técnico" src="IST_Logo.png" height="18"> BSc in Applied Mathematics and Computation at [Instituto Superior Técnico](https://tecnico.ulisboa.pt/).
-- <img alt="Técnico Investment Club" src="tecnico_investment_club_logo.jpg" height="18"> Building and maintaining the analytics, risk and web platforms of [Técnico Investment Club](https://tecnico.ulisboa.pt/) — see [Private work](#private-work).
+- <img alt="Técnico Investment Club" src="tecnico_investment_club_logo.jpg" height="18"> Building and maintaining the analytics, risk and web platforms of [Técnico Investment Club](https://investmentclub.tecnico.ulisboa.pt/) — see [Private work](#private-work).
 
 ## Toolkit
 
