@@ -13,12 +13,12 @@ class ProfileReadmeTests(unittest.TestCase):
             "home-credit-mlops",
             "text-mining-financial-sentiment",
             "cifo-ga-image-reconstruction",
-            "Car-price-prediction-ml",
+            "car-price-prediction",
             "novatrade-database",
-            "Streamlining-Data-Reporting-Processes",
+            "fund-reporting-etl",
             "fund-analytics-pipelines",
             "r-outlook-alerts-template",
-            "Yahtzee",
+            "yahtzee-terminal-game",
         }
         for repository in expected:
             with self.subTest(repository=repository):

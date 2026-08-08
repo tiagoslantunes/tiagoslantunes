@@ -17,15 +17,19 @@ I enjoy turning complex, imperfect data into systems that are measurable, audita
 
 | Project | What it demonstrates | Stack |
 |---|---|---|
-| [Home Credit MLOps](https://github.com/tiagoslantunes/home-credit-mlops) | Collaborative credit-risk system; Tiago owned data splitting, model selection/training, MLflow, Optuna, and SHAP | Python · Kedro · MLflow |
+| [Home Credit MLOps](https://github.com/tiagoslantunes/home-credit-mlops) | Collaborative credit-risk system; I owned data splitting, model selection/training, MLflow, Optuna, and SHAP | Python · Kedro · MLflow |
 | [Financial Tweet Sentiment](https://github.com/tiagoslantunes/text-mining-financial-sentiment) | FinBERT, transformer ensembling, knowledge distillation, and 10-fold OOF evaluation | Python · PyTorch · NLP |
-| [GA Image Reconstruction](https://github.com/tiagoslantunes/cifo-ga-image-reconstruction) | Evolutionary image reconstruction with 100 triangles, systematic tuning, and CIEDE2000 | Python · Genetic Algorithms |
-| [Used-Car Price Prediction](https://github.com/tiagoslantunes/Car-price-prediction-ml) | Leakage-safe preprocessing, regression benchmarking, and OOF blending | Python · scikit-learn |
 | [NovaTrade Database](https://github.com/tiagoslantunes/novatrade-database) | Multi-currency brokerage schema, trading controls, analytical views, and PDF invoices | MySQL · Python |
-| [Fund Reporting ETL](https://github.com/tiagoslantunes/Streamlining-Data-Reporting-Processes) | Vendor-file consolidation, no-look-ahead analytics, QA, and Power BI outputs | Python · pandas · Power BI |
+| [Fund Reporting ETL](https://github.com/tiagoslantunes/fund-reporting-etl) | Vendor-file consolidation, no-look-ahead analytics, QA, and Power BI outputs | Python · pandas · Power BI |
+| [GA Image Reconstruction](https://github.com/tiagoslantunes/cifo-ga-image-reconstruction) | Evolutionary image reconstruction with 100 triangles, systematic tuning, and CIEDE2000 | Python · Genetic Algorithms |
+| [Used-Car Price Prediction](https://github.com/tiagoslantunes/car-price-prediction) | Leakage-safe preprocessing, regression benchmarking, and OOF blending | Python · scikit-learn |
 | [Fund Analytics Pipelines](https://github.com/tiagoslantunes/fund-analytics-pipelines) | Configurable report consolidation and client life-cycle analytics | Python · Excel |
 | [Outlook Alerts Template](https://github.com/tiagoslantunes/r-outlook-alerts-template) | Sanitized HTML monitoring emails with environment-based configuration | R · Outlook COM |
-| [Yahtzee](https://github.com/tiagoslantunes/Yahtzee) | Modular terminal application and automated scoring-rule tests | Python standard library |
+| [Yahtzee](https://github.com/tiagoslantunes/yahtzee-terminal-game) | Modular terminal application and automated scoring-rule tests | Python standard library |
+
+Every repository follows the same layout: a badge row with its live CI status, then
+**Highlights → Project structure → Quick start → Limitations → Quality checks → Authors →
+License**, so you can navigate any of them the same way.
 
 ## Background
 
