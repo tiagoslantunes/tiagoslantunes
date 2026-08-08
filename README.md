@@ -33,11 +33,31 @@ Every repository follows the same layout: a badge row with its live CI status, t
 **Highlights → Project structure → Quick start → Limitations → Quality checks → Authors →
 License**, so you can navigate any of them the same way.
 
+## Private work
+
+Most of my engineering time over the past two years has gone into two systems I build and
+maintain for [Técnico Investment Club](https://tecnico.ulisboa.pt/). Both repositories are
+private, so the summaries below stand in for code I cannot link.
+
+**Risk-AM — portfolio analytics and risk platform.** The analytics and governance system behind
+TIC Asset Management. A Python engine (pandas, NumPy, SciPy, statsmodels, `arch`) handles
+transaction replay, Monte Carlo simulation, Vasicek fixed-income modelling, and news-sentiment
+signals; a role-aware Streamlit workspace sits on top. It follows a compute-once/read-many
+design, so every heavy calculation runs offline and leaves an auditable artifact that the
+dashboard only reads. Around that sit the parts that make it usable by people other than me:
+PostgreSQL persistence with a local fallback, a configurable market-data provider chain,
+mandate monitoring, a data-quality gate, an audit trail, role-protected approvals, and CI that
+blocks on quality and security checks plus a scheduled nightly analytics run.
+
+**Club website.** A Next.js and TypeScript site presenting the club's departments, research,
+live strategies, and recruitment. Vitest covers the units and Playwright covers routing and
+mobile layout, both gated in CI on every push.
+
 ## Background
 
 - <img alt="NOVA IMS" src="NOVA_IMS_Logo.png" height="18"> MSc in Data Science and Advanced Analytics at [NOVA IMS](https://www.novaims.unl.pt/).
 - <img alt="Instituto Superior Técnico" src="IST_Logo.png" height="18"> BSc in Applied Mathematics and Computation at [Instituto Superior Técnico](https://tecnico.ulisboa.pt/).
-- <img alt="Técnico Investment Club" src="tecnico_investment_club_logo.jpg" height="18"> Experience developing quantitative analysis and risk-oriented projects in a student investment-club environment.
+- <img alt="Técnico Investment Club" src="tecnico_investment_club_logo.jpg" height="18"> Building and maintaining the analytics, risk and web platforms of [Técnico Investment Club](https://tecnico.ulisboa.pt/) — see [Private work](#private-work).
 
 ## Toolkit
 
@@ -59,6 +79,14 @@ License**, so you can navigate any of them the same way.
   <img alt="PyTorch" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/pytorch/pytorch-original.svg" height="34">
   &nbsp;&nbsp;
   <img alt="Docker" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/docker/docker-original.svg" height="34">
+  &nbsp;&nbsp;
+  <img alt="Streamlit" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/streamlit/streamlit-original.svg" height="34">
+  &nbsp;&nbsp;
+  <img alt="TypeScript" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/typescript/typescript-original.svg" height="34">
+  &nbsp;&nbsp;
+  <img alt="Next.js" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/nextjs/nextjs-original.svg" height="34">
+  &nbsp;&nbsp;
+  <img alt="PostgreSQL" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/postgresql/postgresql-original.svg" height="34">
   &nbsp;&nbsp;
   <img alt="MySQL" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/mysql/mysql-original.svg" height="34">
   &nbsp;&nbsp;
