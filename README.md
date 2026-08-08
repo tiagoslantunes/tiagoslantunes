@@ -82,10 +82,6 @@ mobile layout, both gated in CI on every push.
   &nbsp;&nbsp;
   <img alt="Streamlit" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/streamlit/streamlit-original.svg" height="34">
   &nbsp;&nbsp;
-  <img alt="TypeScript" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/typescript/typescript-original.svg" height="34">
-  &nbsp;&nbsp;
-  <img alt="Next.js" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/nextjs/nextjs-original.svg" height="34">
-  &nbsp;&nbsp;
   <img alt="PostgreSQL" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/postgresql/postgresql-original.svg" height="34">
   &nbsp;&nbsp;
   <img alt="MySQL" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/mysql/mysql-original.svg" height="34">
