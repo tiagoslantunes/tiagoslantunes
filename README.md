@@ -11,7 +11,7 @@
   <img alt="Focus" src="https://img.shields.io/badge/focus-Data%20Science%20%26%20Finance-8E44AD">
 </p>
 
-I enjoy turning complex, imperfect data into systems that are measurable, auditable, and useful. My projects span natural language processing, tabular machine learning, optimization, financial reporting automation, and relational database design.
+I enjoy turning complex, imperfect data into systems that are measurable, auditable, and useful. My projects span deep learning and computer vision, natural language processing, reinforcement learning, tabular machine learning, evolutionary optimization, financial reporting automation, and relational database design.
 
 ## Selected projects
 
@@ -52,6 +52,14 @@ License**, so you can navigate any of them the same way.
   &nbsp;&nbsp;
   <img alt="scikit-learn" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/scikitlearn/scikitlearn-original.svg" height="34">
   &nbsp;&nbsp;
+  <img alt="TensorFlow" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/tensorflow/tensorflow-original.svg" height="34">
+  &nbsp;&nbsp;
+  <img alt="Keras" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/keras/keras-original.svg" height="34">
+  &nbsp;&nbsp;
+  <img alt="PyTorch" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/pytorch/pytorch-original.svg" height="34">
+  &nbsp;&nbsp;
+  <img alt="Docker" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/docker/docker-original.svg" height="34">
+  &nbsp;&nbsp;
   <img alt="MySQL" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/mysql/mysql-original.svg" height="34">
   &nbsp;&nbsp;
   <img alt="R" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/r/r-original.svg" height="34">
@@ -59,7 +67,7 @@ License**, so you can navigate any of them the same way.
   <img alt="Power BI" src="https://raw.githubusercontent.com/microsoft/PowerBI-Icons/main/SVG/Power-BI.svg" height="34">
 </p>
 
-Core interests: supervised learning, NLP, model evaluation, optimization, financial time series, ETL design, SQL analytics, and reproducible research.
+Core interests: supervised learning, deep learning and transfer learning, NLP, reinforcement learning, evolutionary optimization, model evaluation, financial time series, ETL design, SQL analytics, and reproducible research.
 
 ## What I value
 
