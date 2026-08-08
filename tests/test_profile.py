@@ -12,6 +12,8 @@ class ProfileReadmeTests(unittest.TestCase):
         expected = {
             "home-credit-mlops",
             "text-mining-financial-sentiment",
+            "wikiart-painter-classification",
+            "rl-icu-sepsis",
             "cifo-ga-image-reconstruction",
             "car-price-prediction",
             "novatrade-database",

@@ -19,6 +19,8 @@ I enjoy turning complex, imperfect data into systems that are measurable, audita
 |---|---|---|
 | [Home Credit MLOps](https://github.com/tiagoslantunes/home-credit-mlops) | Collaborative credit-risk system; I owned data splitting, model selection/training, MLflow, Optuna, and SHAP | Python · Kedro · MLflow |
 | [Financial Tweet Sentiment](https://github.com/tiagoslantunes/text-mining-financial-sentiment) | FinBERT, transformer ensembling, knowledge distillation, and 10-fold OOF evaluation | Python · PyTorch · NLP |
+| [WikiArt Painter Classification](https://github.com/tiagoslantunes/wikiart-painter-classification) | Transfer learning across 23 painters, duplicate auditing, and 10-fold CV to a held-out test set | Python · TensorFlow · Keras |
+| [RL for ICU Sepsis](https://github.com/tiagoslantunes/rl-icu-sepsis) | Tabular and deep RL under clinical failure modes, with reward shaping and honest baselines | Python · Stable-Baselines3 |
 | [NovaTrade Database](https://github.com/tiagoslantunes/novatrade-database) | Multi-currency brokerage schema, trading controls, analytical views, and PDF invoices | MySQL · Python |
 | [Fund Reporting ETL](https://github.com/tiagoslantunes/fund-reporting-etl) | Vendor-file consolidation, no-look-ahead analytics, QA, and Power BI outputs | Python · pandas · Power BI |
 | [GA Image Reconstruction](https://github.com/tiagoslantunes/cifo-ga-image-reconstruction) | Evolutionary image reconstruction with 100 triangles, systematic tuning, and CIEDE2000 | Python · Genetic Algorithms |
