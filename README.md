@@ -1,7 +1,7 @@
 # Hi, I'm Tiago Antunes
 
 <p align="center">
-  <strong>Data Science · Machine Learning · Financial Analytics</strong><br>
+  <strong>Quant risk & ML engineering. Production Python for asset management</strong><br>
   MSc student at NOVA IMS, building reproducible analytical systems from raw data to decisions.
 </p>
 
