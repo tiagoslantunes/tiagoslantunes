@@ -13,7 +13,7 @@
 
 I enjoy turning complex, imperfect data into systems that are measurable, auditable, and useful. My projects span deep learning and computer vision, natural language processing, reinforcement learning, tabular machine learning, evolutionary optimization, financial reporting automation, and relational database design.
 
-## Selected projects
+## Project directory
 
 | Project | What it demonstrates | Stack |
 |---|---|---|
@@ -29,9 +29,14 @@ I enjoy turning complex, imperfect data into systems that are measurable, audita
 | [Outlook Alerts Template](https://github.com/tiagoslantunes/r-outlook-alerts-template) | Sanitized HTML monitoring emails with environment-based configuration | R · Outlook COM |
 | [Yahtzee](https://github.com/tiagoslantunes/yahtzee-terminal-game) | Modular terminal application and automated scoring-rule tests | Python standard library |
 
-Every repository follows the same layout: a badge row with its live CI status, then
-**Highlights → Project structure → Quick start → Limitations → Quality checks → Authors →
-License**, so you can navigate any of them the same way.
+For a first visit, start with **Home Credit MLOps** for pipeline engineering,
+**Financial Tweet Sentiment** for NLP experimentation, or **Fund Reporting ETL**
+for reporting automation. Each project explains where to find its final artifacts,
+what is needed to run it, and the scope of its quality checks.
+
+The academic projects are collaborative: their READMEs credit the full teams and
+link to upstream repositories where applicable. CI badges describe automated checks,
+not independent validation of research results or production readiness.
 
 ## Private work
 
