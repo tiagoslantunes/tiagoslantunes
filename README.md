@@ -12,78 +12,45 @@
   <img alt="Production data engineering" src="https://img.shields.io/badge/Production%20data%20engineering-5B8FB0?style=for-the-badge">
 </p>
 
-I build the machinery that turns positions into decisions people are willing to sign: a loss
-distribution someone can defend to a committee, an attribution that says where the return actually
-came from, and a pipeline that produces both before the market opens. MSc in Data Science and
-Advanced Analytics at **NOVA IMS**, after a BSc in Applied Mathematics and Computation at
-**Instituto Superior Técnico**.
-
-The work sits in three places: **market and portfolio risk**, **reporting infrastructure for
-regulated asset management**, and the **applied ML** — deep learning, NLP, reinforcement learning —
-that I use to keep the modelling honest rather than fashionable.
+I build the machinery that turns positions into decisions people are willing to sign — a loss
+distribution you can defend to a committee, an attribution that says where the return came from,
+and a pipeline that produces both before the market opens. MSc in Data Science at **NOVA IMS**,
+BSc in Applied Mathematics and Computation at **Instituto Superior Técnico**.
 
 ---
 
 ## Experience
 
-<img alt="Production systems" src="https://img.shields.io/badge/Production%20systems-0B1B2B?style=flat-square">
-
 ### Técnico Investment Club &nbsp; <img alt="Python" src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white"> <img alt="PostgreSQL" src="https://img.shields.io/badge/PostgreSQL-4169E1?style=flat-square&logo=postgresql&logoColor=white"> <img alt="Status: live" src="https://img.shields.io/badge/status-live-2E5A7D?style=flat-square&labelColor=0B1B2B">
 
-Project Manager — Risk Team & Horizon Fund · Sep 2024 – Present · [live platform](https://tic-am.streamlit.app/)
+Project Manager, Risk Team & Horizon Fund · Sep 2024 – Present · [live platform](https://tic-am.streamlit.app/)
 
-An institutional-grade risk platform for **3 live funds, used daily by 13 fund managers**: a
-30-module Python engine behind a Streamlit workspace, a nightly CI pipeline with atomic database
-swaps, fail-closed data-quality gates, per-run audit manifests, and **670+ automated tests**.
-
-The risk stack is the part I would defend line by line — EWMA filtered historical simulation,
-GARCH(1,1) with volatility-regime detection, Student-t, and 5-variant Monte Carlo, each validated
-through **Kupiec and Christoffersen backtesting** with expected-shortfall diagnostics. On top of it
-sit daily Brinson-Fachler attribution with Carino chain-linking and a Black-Litterman /
-efficient-frontier rebalancer that emits mandate-capped, pre-trade-compliant order lists with
-transaction costs priced in.
-
-It is also productised: a multi-provider market-data chain (CSV / Bloomberg / Morningstar), no-code
-client packaging down to individual charts, white-labelling, RBAC, and Docker deployment. The LLM
-layer that writes daily fund commentary runs on a provider fallback chain, and every figure in the
-output is code-injected and regex-validated — **model-invented numbers never reach a report.**
-
-I also build and maintain the club's Next.js and TypeScript site, with Vitest on the units and
-Playwright on routing and mobile layout, both gated in CI.
-
-Both repositories are private, so the summary above stands in for code I cannot link.
+A risk platform for **3 live funds, used daily by 13 fund managers** — a 30-module Python engine
+behind Streamlit, nightly CI with atomic database swaps, fail-closed data-quality gates and
+**670+ automated tests**. The risk stack runs EWMA filtered historical simulation, GARCH(1,1),
+Student-t and 5-variant Monte Carlo, each validated by **Kupiec and Christoffersen backtesting**;
+above it sit daily Brinson-Fachler attribution and a Black-Litterman rebalancer emitting
+mandate-capped, pre-trade-compliant orders. The LLM layer writing fund commentary code-injects and
+regex-validates every figure, so **model-invented numbers never reach a report**. Repository private.
 
 ### AlTi Global &nbsp; <img alt="pandas" src="https://img.shields.io/badge/pandas-150458?style=flat-square&logo=pandas&logoColor=white"> <img alt="Power BI" src="https://img.shields.io/badge/Power%20BI-F2C811?style=flat-square&logo=powerbi&logoColor=black"> <img alt="Sole engineer" src="https://img.shields.io/badge/role-sole%20engineer-A8412F?style=flat-square&labelColor=0B1B2B">
 
-Quantitative Data Engineer, bachelor's thesis · Feb – Jul 2025 · NASDAQ-listed global wealth manager, ≈$75B+ AUM/AUA
+Quantitative Data Engineer, bachelor's thesis · Feb – Jul 2025 · NASDAQ-listed wealth manager, ≈$75B+ AUM/AUA · [sanitized code](https://github.com/tiagoslantunes/fund-reporting-etl)
 
-Fund reporting went **from hours to under 30 seconds across 200+ funds** on a fully vectorised
-NumPy/pandas pipeline computing 21 KPIs — Sharpe, tracking error, rolling β, max drawdown, hit-rate
-— across 8 time windows under strict no-look-ahead enforcement. Six heterogeneous Morningstar feeds
-became a single point-in-time source of truth with dynamic multi-benchmark mapping, feeding
-audit-grade Power BI reporting that the investment team used daily and that I presented to the CIO.
-
-Because the output was destined for regulated review, the integrity work mattered as much as the
-speed: a Pearson-ρ fund identity detector (ρ ≥ 0.90, p < 10⁻⁹, validated over 20,000 Monte Carlo
-trials) and regex classification of 175 exposure headers with **0% unknowns**, every assumption
-written down.
-
-Public, sanitized counterpart: [fund-reporting-etl](https://github.com/tiagoslantunes/fund-reporting-etl).
+Sole engineer on fund reporting: **hours to under 30 seconds across 200+ funds**, on a vectorised
+NumPy/pandas pipeline computing 21 KPIs across 8 time windows with no look-ahead. Six Morningstar
+feeds became one point-in-time source of truth behind Power BI reporting I presented to the CIO.
+For regulated review, a Pearson-ρ fund identity detector (ρ ≥ 0.90, p < 10⁻⁹) and regex
+classification of 175 exposure headers with **0% unknowns**.
 
 ### BPI Asset Management &nbsp; <img alt="R" src="https://img.shields.io/badge/R-276DC3?style=flat-square&logo=r&logoColor=white"> <img alt="Zero missed reports" src="https://img.shields.io/badge/zero-missed%20reports-2E5A7D?style=flat-square&labelColor=0B1B2B">
 
-Risk Management Intern · Jul – Aug 2024 · CaixaBank Group
+Risk Management Intern · Jul – Aug 2024 · CaixaBank Group · [alerts](https://github.com/tiagoslantunes/r-outlook-alerts-template) · [analytics](https://github.com/tiagoslantunes/fund-analytics-pipelines)
 
-Daily liquidity monitoring across the fund range. I delivered **20+ client lifecycle KPIs to the
-CEO** of BPI Asset Management by classifying monthly fund flows into 5 movement segments across 19
-analytical sheets, and replaced the manual morning check with an automated R / Outlook COM pipeline
-sending threshold-triggered HTML liquidity alerts before market open — **zero missed reports** over
-the internship. Two further pipelines covered cross-fund 2σ outlier detection, Pearson correlation
-matrices, and ARIMA(1,1,1) forecasting with 95% confidence intervals.
-
-Public, sanitized counterparts:
-[r-outlook-alerts-template](https://github.com/tiagoslantunes/r-outlook-alerts-template) ·
-[fund-analytics-pipelines](https://github.com/tiagoslantunes/fund-analytics-pipelines).
+**20+ client lifecycle KPIs to the CEO** of BPI Asset Management, from monthly fund flows across 19
+analytical sheets — and an automated R / Outlook COM pipeline sending threshold-triggered liquidity
+alerts before market open, with **zero missed reports**. Plus cross-fund 2σ outlier detection and
+ARIMA(1,1,1) forecasting with 95% intervals.
 
 ---
 
@@ -97,20 +64,16 @@ Public, sanitized counterparts:
   </picture>
 </p>
 
-Whatever the asset class, the headline number is the same pair — the loss I am planning for, and the
-loss I should expect once that threshold is breached:
+Whatever the asset class, the headline pair is the same — the loss I plan for, and the loss to
+expect once that threshold breaks:
 
 $$\mathrm{VaR}_{\alpha}(L) = \inf \lbrace \ell \in \mathbb{R} : \mathbb{P}(L \gt \ell) \le 1 - \alpha \rbrace$$
 
 $$\mathrm{ES}_{\alpha}(L) = \frac{1}{1 - \alpha} \int_{\alpha}^{1} \mathrm{VaR}_{u}(L) \mathrm{d}u$$
 
-Everything upstream is an argument about the distribution of $L$ — filtered historical simulation,
-a GARCH recursion, a Student-t tail, a Monte Carlo engine — and everything downstream is an argument
-about whether that distribution earned its place. That is what the dashed arrow in the diagram is
-for: a VaR model that fails Kupiec or Christoffersen does not get to keep reporting.
-
-The same discipline runs through the rest: state the assumption, report the interval next to the
-point estimate, and say where the model stops being trustworthy.
+Everything upstream argues about the distribution of $L$; everything downstream argues about whether
+that distribution earned its place. Hence the dashed arrow: a model that fails Kupiec or
+Christoffersen does not keep reporting.
 
 ---
 
@@ -120,40 +83,40 @@ point estimate, and say where the model stops being trustworthy.
 
 | Project | What it demonstrates | Stack |
 |---|---|---|
-| [Home Credit MLOps](https://github.com/tiagoslantunes/home-credit-mlops) | Collaborative credit-risk system; I owned data splitting, model selection and training, MLflow, Optuna, and SHAP | Python · Kedro · MLflow |
-| [Used-Car Price Prediction](https://github.com/tiagoslantunes/car-price-prediction) | Leakage-safe preprocessing, regression benchmarking, and out-of-fold blending | Python · scikit-learn |
+| [Home Credit MLOps](https://github.com/tiagoslantunes/home-credit-mlops) | I owned splitting, model selection, MLflow, Optuna and SHAP | Python · Kedro · MLflow |
+| [Used-car prices](https://github.com/tiagoslantunes/car-price-prediction) | Leakage-safe preprocessing and out-of-fold blending | Python · scikit-learn |
 
 <img alt="Deep learning and NLP" src="https://img.shields.io/badge/Deep%20learning%20%26%20NLP-2E5A7D?style=flat-square">
 
 | Project | What it demonstrates | Stack |
 |---|---|---|
-| [Financial tweet sentiment](https://github.com/tiagoslantunes/text-mining-financial-sentiment) | FinBERT, transformer ensembling, knowledge distillation, and 10-fold out-of-fold evaluation | Python · PyTorch · NLP |
-| [WikiArt painter classification](https://github.com/tiagoslantunes/wikiart-painter-classification) | Transfer learning across 23 painters, duplicate auditing, and 10-fold CV to a held-out test set | Python · TensorFlow · Keras |
-| [RL for ICU sepsis](https://github.com/tiagoslantunes/rl-icu-sepsis) | Tabular and deep RL under clinical failure modes, with reward shaping and honest baselines | Python · Stable-Baselines3 |
+| [Financial tweet sentiment](https://github.com/tiagoslantunes/text-mining-financial-sentiment) | FinBERT, ensembling, distillation, 10-fold out-of-fold | Python · PyTorch |
+| [WikiArt painters](https://github.com/tiagoslantunes/wikiart-painter-classification) | Transfer learning over 23 painters, duplicate auditing | TensorFlow · Keras |
+| [RL for ICU sepsis](https://github.com/tiagoslantunes/rl-icu-sepsis) | Tabular and deep RL with honest baselines | Stable-Baselines3 |
 
 <img alt="Optimization and data systems" src="https://img.shields.io/badge/Optimization%20%26%20data%20systems-5B8FB0?style=flat-square">
 
 | Project | What it demonstrates | Stack |
 |---|---|---|
-| [Fund reporting ETL](https://github.com/tiagoslantunes/fund-reporting-etl) | The AlTi pattern: vendor-file consolidation, no-look-ahead analytics, QA gates, Power BI outputs | Python · pandas · Power BI |
-| [GA image reconstruction](https://github.com/tiagoslantunes/cifo-ga-image-reconstruction) | Evolutionary reconstruction with 100 triangles, systematic tuning, and CIEDE2000 | Python · Genetic algorithms |
-| [NovaTrade database](https://github.com/tiagoslantunes/novatrade-database) | Multi-currency brokerage schema, trading controls, analytical views, and PDF invoices | MySQL · Python |
+| [Fund reporting ETL](https://github.com/tiagoslantunes/fund-reporting-etl) | The AlTi pattern: consolidation, no look-ahead, QA gates | pandas · Power BI |
+| [GA image reconstruction](https://github.com/tiagoslantunes/cifo-ga-image-reconstruction) | 100 triangles, systematic tuning, CIEDE2000 | Genetic algorithms |
+| [NovaTrade database](https://github.com/tiagoslantunes/novatrade-database) | Multi-currency brokerage schema and analytical views | MySQL · Python |
 
 <details>
-<summary><b>More repositories</b> — smaller or supporting work, kept for the record</summary>
+<summary><b>More repositories</b></summary>
 
 <br>
 
 | Project | Note |
 |---|---|
-| [Fund analytics pipelines](https://github.com/tiagoslantunes/fund-analytics-pipelines) | Configurable report consolidation and client life-cycle analytics, from the BPI work |
-| [Outlook alerts template](https://github.com/tiagoslantunes/r-outlook-alerts-template) | Sanitized HTML monitoring emails with environment-based configuration |
-| [Yahtzee](https://github.com/tiagoslantunes/yahtzee-terminal-game) | Modular terminal application and automated scoring-rule tests |
+| [Fund analytics pipelines](https://github.com/tiagoslantunes/fund-analytics-pipelines) | Report consolidation and client life-cycle analytics, from the BPI work |
+| [Outlook alerts template](https://github.com/tiagoslantunes/r-outlook-alerts-template) | Sanitized HTML monitoring emails, configured by environment |
+| [Yahtzee](https://github.com/tiagoslantunes/yahtzee-terminal-game) | Modular terminal application with scoring-rule tests |
 
 </details>
 
-Each repository states what it needs to run, where its outputs are, and where its conclusions stop.
-Group coursework credits its full team and links upstream.
+Each repository says what it needs to run and where its conclusions stop. Group coursework credits
+its full team.
 
 ---
 
@@ -189,35 +152,21 @@ Group coursework credits its full team and links upstream.
   <img alt="Power BI" src="https://raw.githubusercontent.com/microsoft/PowerBI-Icons/main/SVG/Power-BI.svg" height="34">
 </p>
 
-Those are the tools. Below is what I do with them.
-
-| Domain | Tools and methods |
+| Domain | Methods |
 |---|---|
-| **Risk & portfolio** | VaR/CVaR (EWMA, GARCH, backtesting), Brinson-Fachler and Carino attribution, MCTR/CCTR, stress testing, pre-trade compliance, Ledoit-Wolf shrinkage, Vasicek bond modelling |
-| **Quantitative & ML** | Python (NumPy, pandas, scikit-learn, SciPy, statsmodels), R, Monte Carlo, efficient frontier, Black-Litterman, factor decomposition, ARIMA, ensemble methods |
-| **Deep learning & NLP** | PyTorch, TensorFlow, Keras, transfer learning, transformer fine-tuning and distillation, FinBERT, reinforcement learning |
-| **Data & automation** | SQL (PostgreSQL, MySQL, SQLite), ETL design, Power BI (DAX), Streamlit, GitHub Actions, Docker, secrets management, reproducible workflows |
-| **AI & GenAI** | Multi-provider LLM chains, prompt engineering with output validation, financial-text sentiment, fallback and no-PII patterns |
+| **Risk & portfolio** | VaR/CVaR (EWMA, GARCH, backtesting), Brinson-Fachler and Carino attribution, MCTR/CCTR, stress testing, pre-trade compliance, Ledoit-Wolf shrinkage, Vasicek modelling |
+| **Modelling** | Monte Carlo, efficient frontier, Black-Litterman, factor decomposition, ARIMA, ensembles, transfer learning, transformer fine-tuning and distillation, reinforcement learning |
+| **Data & delivery** | ETL design, point-in-time data, SQL analytics, Power BI (DAX), CI gates, Docker, validated LLM chains |
 
 ---
 
 ## Background
 
-- <img alt="NOVA IMS" src="assets/NOVA_IMS_Logo.png" height="26"> &nbsp; **MSc, Data Science and Advanced Analytics**, [NOVA IMS](https://www.novaims.unl.pt/) — computational optimization, deep learning, MLOps, statistics, machine learning.
-- <img alt="Instituto Superior Técnico" src="assets/IST_Logo.png" height="26"> &nbsp; **BSc, Applied Mathematics and Computation**, [Instituto Superior Técnico](https://tecnico.ulisboa.pt/) — probability and statistics, statistical data mining, numerical linear algebra, optimisation, theory of computation.
-- <img alt="Técnico Investment Club" src="assets/tecnico_investment_club_logo.jpg" height="26"> &nbsp; **Project Manager, Risk Team & Horizon Fund**, [Técnico Investment Club](https://investmentclub.tecnico.ulisboa.pt/) — the risk, analytics and web platforms.
+- <img alt="NOVA IMS" src="assets/NOVA_IMS_Logo.png" height="26"> &nbsp; **MSc, Data Science and Advanced Analytics** — [NOVA IMS](https://www.novaims.unl.pt/)
+- <img alt="Instituto Superior Técnico" src="assets/IST_Logo.png" height="26"> &nbsp; **BSc, Applied Mathematics and Computation** — [Instituto Superior Técnico](https://tecnico.ulisboa.pt/)
+- <img alt="Técnico Investment Club" src="assets/tecnico_investment_club_logo.jpg" height="26"> &nbsp; **Risk, analytics and web platforms** — [Técnico Investment Club](https://investmentclub.tecnico.ulisboa.pt/)
 
-**Languages:** Portuguese (native) · English (C1) · Spanish (conversational).
-
----
-
-## What I value
-
-- Evaluation that matches the real decision being made.
-- Leakage-safe pipelines and explicit assumptions.
-- Clear documentation, data provenance, and stated limitations.
-- Automation with validation, observability, and recoverable outputs.
-- Communication that makes technical work understandable to non-specialists.
+Portuguese (native) · English (C1) · Spanish (conversational).
 
 ---
 
