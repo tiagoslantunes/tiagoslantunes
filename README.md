@@ -172,9 +172,11 @@ coursework credits the full team.
 
 ## Background
 
-- <img alt="NOVA IMS" src="assets/NOVA_IMS_Logo.png" height="26"> &nbsp; **MSc, Data Science and Advanced Analytics** · [NOVA IMS](https://www.novaims.unl.pt/)
-- <img alt="Instituto Superior Técnico" src="assets/IST_Logo.png" height="26"> &nbsp; **BSc, Applied Mathematics and Computation** · [Instituto Superior Técnico](https://tecnico.ulisboa.pt/)
-- <img alt="Técnico Investment Club" src="assets/tecnico_investment_club_logo.jpg" height="26"> &nbsp; **Risk, analytics and web platforms** · [Técnico Investment Club](https://investmentclub.tecnico.ulisboa.pt/)
+- <img alt="NOVA IMS" src="assets/badge-novaims.png" height="28"> &nbsp; **MSc, Data Science and Advanced Analytics** · [NOVA IMS](https://www.novaims.unl.pt/)
+- <img alt="Instituto Superior Técnico" src="assets/badge-ist.png" height="28"> &nbsp; **BSc, Applied Mathematics and Computation** · [Instituto Superior Técnico](https://tecnico.ulisboa.pt/)
+- <img alt="AlTi Global" src="assets/badge-alti.png" height="28"> &nbsp; **Quantitative Data Engineer**, bachelor's thesis · [AlTi Global](https://alti-global.com/)
+- <img alt="BPI Asset Management" src="assets/badge-bpi.png" height="28"> &nbsp; **Risk Management Intern** · [BPI Asset Management](https://www.bancobpi.pt/bpigestaodeativos)
+- <img alt="Técnico Investment Club" src="assets/badge-tic.png" height="28"> &nbsp; **Risk, analytics and web platforms** · [Técnico Investment Club](https://investmentclub.tecnico.ulisboa.pt/)
 
 Portuguese (native) · English (C1) · Spanish (conversational).
 
