@@ -4,9 +4,9 @@
 
   <text x="56" y="112" font-family="'Helvetica Neue',Helvetica,Arial,sans-serif" font-size="46" font-weight="700" letter-spacing="-0.6" fill="#0B1B2B">Tiago Antunes</text>
   <text x="58" y="148" font-family="'Helvetica Neue',Helvetica,Arial,sans-serif" font-size="16.5" font-weight="600" letter-spacing="1.4" fill="#2E5A7D">QUANTITATIVE RISK &amp; PORTFOLIO ANALYTICS</text>
-  <text x="57" y="188" font-family="'Helvetica Neue',Helvetica,Arial,sans-serif" font-size="17" fill="#5A6B7C">I build the risk and reporting systems that asset</text>
-  <text x="57" y="212" font-family="'Helvetica Neue',Helvetica,Arial,sans-serif" font-size="17" fill="#5A6B7C">managers run every day — and the evidence that</text>
-  <text x="57" y="236" font-family="'Helvetica Neue',Helvetica,Arial,sans-serif" font-size="17" fill="#5A6B7C">says when to stop trusting them.</text>
+  <text x="57" y="188" font-family="'Helvetica Neue',Helvetica,Arial,sans-serif" font-size="17" fill="#5A6B7C">Risk and reporting systems for asset management.</text>
+  <text x="57" y="212" font-family="'Helvetica Neue',Helvetica,Arial,sans-serif" font-size="17" fill="#5A6B7C">VaR, expected shortfall, attribution, and the</text>
+  <text x="57" y="236" font-family="'Helvetica Neue',Helvetica,Arial,sans-serif" font-size="17" fill="#5A6B7C">pipelines that produce them on a schedule.</text>
   <rect x="56.0" y="264" width="51.6" height="30" rx="15" fill="#F1F5F8" stroke="#DCE7EE"/><text x="81.8" y="284" text-anchor="middle" font-family="'Helvetica Neue',Helvetica,Arial,sans-serif" font-size="13" font-weight="600" fill="#2E5A7D">Risk</text><rect x="164.0" y="264" width="103.4" height="30" rx="15" fill="#F1F5F8" stroke="#DCE7EE"/><text x="215.7" y="284" text-anchor="middle" font-family="'Helvetica Neue',Helvetica,Arial,sans-serif" font-size="13" font-weight="600" fill="#2E5A7D">Attribution</text><rect x="314.0" y="264" width="147.8" height="30" rx="15" fill="#F1F5F8" stroke="#DCE7EE"/><text x="387.9" y="284" text-anchor="middle" font-family="'Helvetica Neue',Helvetica,Arial,sans-serif" font-size="13" font-weight="600" fill="#2E5A7D">Production Python</text>
 
   <line x1="545.0" y1="286.0" x2="1150.0" y2="286.0" stroke="#E3E9EE" stroke-width="1.25"/>

@@ -12,10 +12,9 @@
   <img alt="Production data engineering" src="https://img.shields.io/badge/Production%20data%20engineering-5B8FB0?style=for-the-badge">
 </p>
 
-I build the machinery that turns positions into decisions people are willing to sign — a loss
-distribution you can defend to a committee, an attribution that says where the return came from,
-and a pipeline that produces both before the market opens. MSc in Data Science at **NOVA IMS**,
-BSc in Applied Mathematics and Computation at **Instituto Superior Técnico**.
+I work on risk and reporting systems for asset management: VaR and expected shortfall, performance
+attribution, and the pipelines that produce them on a schedule. MSc in Data Science at NOVA IMS,
+BSc in Applied Mathematics and Computation at Instituto Superior Técnico.
 
 ---
 
@@ -25,36 +24,48 @@ BSc in Applied Mathematics and Computation at **Instituto Superior Técnico**.
 
 Project Manager, Risk Team & Horizon Fund · Sep 2024 – Present · [live platform](https://tic-am.streamlit.app/)
 
-A risk platform for **3 live funds, used daily by 13 fund managers** — a 30-module Python engine
-behind Streamlit, nightly CI with atomic database swaps, fail-closed data-quality gates and
-**670+ automated tests**. The risk stack runs EWMA filtered historical simulation, GARCH(1,1),
-Student-t and 5-variant Monte Carlo, each validated by **Kupiec and Christoffersen backtesting**;
-above it sit daily Brinson-Fachler attribution and a Black-Litterman rebalancer emitting
-mandate-capped, pre-trade-compliant orders. The LLM layer writing fund commentary code-injects and
-regex-validates every figure, so **model-invented numbers never reach a report**. Repository private.
+A risk platform for **3 live funds**, used daily by **13 fund managers**. A 30-module Python engine
+behind a Streamlit interface, with nightly CI, atomic database swaps, fail-closed data-quality gates
+and **670+ automated tests**.
+
+Risk measures are EWMA filtered historical simulation, GARCH(1,1) with volatility-regime detection,
+Student-t, and 5-variant Monte Carlo, backtested with Kupiec and Christoffersen. Attribution is
+Brinson-Fachler with Carino chain-linking. A Black-Litterman rebalancer produces mandate-capped,
+pre-trade-compliant order lists with transaction costs. Fund commentary is written by an LLM, but
+every figure in it is injected from code and checked against the source before the report renders.
+
+I also maintain the club's Next.js site, with Vitest on units and Playwright on routing and mobile
+layout. Both repositories are private.
 
 ### AlTi Global &nbsp; <img alt="pandas" src="https://img.shields.io/badge/pandas-150458?style=flat-square&logo=pandas&logoColor=white"> <img alt="Power BI" src="https://img.shields.io/badge/Power%20BI-F2C811?style=flat-square&logo=powerbi&logoColor=black"> <img alt="Sole engineer" src="https://img.shields.io/badge/role-sole%20engineer-A8412F?style=flat-square&labelColor=0B1B2B">
 
 Quantitative Data Engineer, bachelor's thesis · Feb – Jul 2025 · NASDAQ-listed wealth manager, ≈$75B+ AUM/AUA · [sanitized code](https://github.com/tiagoslantunes/fund-reporting-etl)
 
-Sole engineer on fund reporting: **hours to under 30 seconds across 200+ funds**, on a vectorised
-NumPy/pandas pipeline computing 21 KPIs across 8 time windows with no look-ahead. Six Morningstar
-feeds became one point-in-time source of truth behind Power BI reporting I presented to the CIO.
-For regulated review, a Pearson-ρ fund identity detector (ρ ≥ 0.90, p < 10⁻⁹) and regex
-classification of 175 exposure headers with **0% unknowns**.
+Sole engineer on the fund reporting infrastructure. A vectorised NumPy/pandas pipeline computing 21
+KPIs across 8 time windows under no-look-ahead constraints took the reporting cycle from hours to
+**under 30 seconds across 200+ funds**.
+
+Six Morningstar feeds were consolidated into one point-in-time source of truth with dynamic
+multi-benchmark mapping, behind Power BI reporting used daily by the investment team and presented
+to the CIO. Because the output went to regulated review, I also built a Pearson-ρ fund identity
+detector (ρ ≥ 0.90, p < 10⁻⁹, validated over 20,000 Monte Carlo trials) and regex classification of
+175 exposure headers, with **0% unknowns**.
 
 ### BPI Asset Management &nbsp; <img alt="R" src="https://img.shields.io/badge/R-276DC3?style=flat-square&logo=r&logoColor=white"> <img alt="Zero missed reports" src="https://img.shields.io/badge/zero-missed%20reports-2E5A7D?style=flat-square&labelColor=0B1B2B">
 
 Risk Management Intern · Jul – Aug 2024 · CaixaBank Group · [alerts](https://github.com/tiagoslantunes/r-outlook-alerts-template) · [analytics](https://github.com/tiagoslantunes/fund-analytics-pipelines)
 
-**20+ client lifecycle KPIs to the CEO** of BPI Asset Management, from monthly fund flows across 19
-analytical sheets — and an automated R / Outlook COM pipeline sending threshold-triggered liquidity
-alerts before market open, with **zero missed reports**. Plus cross-fund 2σ outlier detection and
-ARIMA(1,1,1) forecasting with 95% intervals.
+Daily liquidity monitoring across the fund range. I classified monthly fund flows into 5 movement
+segments across 19 analytical sheets, producing **20+ client lifecycle KPIs** delivered to the CEO
+of BPI Asset Management.
+
+The manual morning check was replaced by an R and Outlook COM pipeline sending threshold-triggered
+liquidity alerts before market open, with **zero missed reports** over the internship. Two further
+pipelines covered cross-fund 2σ outlier detection and ARIMA(1,1,1) forecasting with 95% intervals.
 
 ---
 
-## How a position becomes a decision
+## From positions to orders
 
 <p align="center">
   <picture>
@@ -64,16 +75,15 @@ ARIMA(1,1,1) forecasting with 95% intervals.
   </picture>
 </p>
 
-Whatever the asset class, the headline pair is the same — the loss I plan for, and the loss to
-expect once that threshold breaks:
+The two headline numbers, whatever the asset class:
 
 $$\mathrm{VaR}_{\alpha}(L) = \inf \lbrace \ell \in \mathbb{R} : \mathbb{P}(L \gt \ell) \le 1 - \alpha \rbrace$$
 
 $$\mathrm{ES}_{\alpha}(L) = \frac{1}{1 - \alpha} \int_{\alpha}^{1} \mathrm{VaR}_{u}(L) \mathrm{d}u$$
 
-Everything upstream argues about the distribution of $L$; everything downstream argues about whether
-that distribution earned its place. Hence the dashed arrow: a model that fails Kupiec or
-Christoffersen does not keep reporting.
+Both depend entirely on the estimated distribution of $L$, which is where filtered historical
+simulation, a GARCH recursion, a Student-t tail or a Monte Carlo engine come in. Backtesting decides
+whether that estimate stays in production, which is what the dashed arrow does.
 
 ---
 
@@ -115,8 +125,8 @@ Christoffersen does not keep reporting.
 
 </details>
 
-Each repository says what it needs to run and where its conclusions stop. Group coursework credits
-its full team.
+Each repository documents its requirements, its outputs, and the limits of its conclusions. Group
+coursework credits the full team.
 
 ---
 
@@ -162,9 +172,9 @@ its full team.
 
 ## Background
 
-- <img alt="NOVA IMS" src="assets/NOVA_IMS_Logo.png" height="26"> &nbsp; **MSc, Data Science and Advanced Analytics** — [NOVA IMS](https://www.novaims.unl.pt/)
-- <img alt="Instituto Superior Técnico" src="assets/IST_Logo.png" height="26"> &nbsp; **BSc, Applied Mathematics and Computation** — [Instituto Superior Técnico](https://tecnico.ulisboa.pt/)
-- <img alt="Técnico Investment Club" src="assets/tecnico_investment_club_logo.jpg" height="26"> &nbsp; **Risk, analytics and web platforms** — [Técnico Investment Club](https://investmentclub.tecnico.ulisboa.pt/)
+- <img alt="NOVA IMS" src="assets/NOVA_IMS_Logo.png" height="26"> &nbsp; **MSc, Data Science and Advanced Analytics** · [NOVA IMS](https://www.novaims.unl.pt/)
+- <img alt="Instituto Superior Técnico" src="assets/IST_Logo.png" height="26"> &nbsp; **BSc, Applied Mathematics and Computation** · [Instituto Superior Técnico](https://tecnico.ulisboa.pt/)
+- <img alt="Técnico Investment Club" src="assets/tecnico_investment_club_logo.jpg" height="26"> &nbsp; **Risk, analytics and web platforms** · [Técnico Investment Club](https://investmentclub.tecnico.ulisboa.pt/)
 
 Portuguese (native) · English (C1) · Spanish (conversational).
 
